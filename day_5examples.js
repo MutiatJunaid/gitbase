@@ -77,3 +77,44 @@ index===-1? console.log('this fruits doesnt exist in the array'):console.log('th
 const number = [1, 2, 3, 4, 5, 3, 1, 2]
 console.log(number.lastIndexOf(2))
 console.log(number.includes(5))
+
+const num = [1, 2, 3, 4, 5,]
+console.log(num.includes(5))
+console.log(num.includes(0))
+console.log(num.includes(6))
+console.log(num.includes(1))
+console.log(webTechs.includes('nodes'))
+console.log(webTechs.includes('javascripts'))
+console.log(webTechs.includes('c+'))
+
+console.log(num.slice())
+console.log(num.slice(0))
+console.log(num.slice(1,4))
+console.log(num.splice())
+console.log(num.splice(0,1))
+const num1=[1,2,3,4,5]
+num1.push(6)
+console.log(num1)
+num1.pop()
+console.log(num1)
+fruits.push('apple')
+console.log(fruits)
+fruits.pop()
+console.log(fruits)
+num.shift()
+console.log(num)
+num1.unshift()
+console.log(num1)
+number.reverse()
+console.log(number)
+webTechs.sort()
+console.log(webTechs)
+webTechs.reverse()
+console.log(webTechs)
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+ const backEnd = ['Node','Express', 'MongoDB']
+ const fullStack = [frontEnd, backEnd]
+ console.log(fullStack)
+ console.log(fullStack.length)
+ console.log(fullStack[0])
+ console.log(fullStack[1])
