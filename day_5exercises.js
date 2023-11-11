@@ -103,4 +103,4 @@ console.log(itCompanies)
 //q17Slice out the first 3 companies from the array
 
 console.log(itCompanies.slice(1,3))
-console.log()
+console.log('Mariam')
