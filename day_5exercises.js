@@ -102,6 +102,54 @@ console.log(itCompanies)
 
 //q17Slice out the first 3 companies from the array
 
-console.log(itCompanies.slice(1,3))
-console.log('Mariam')
-console.log('Aasiyah')
+itCompanies.slice(0,3)
+console.log()
+
+//level2
+//q1
+/*Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file*/
+
+//q2
+let text =
+'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+
+/*First remove all the punctuations and change the string to array and count the number of words in the array*/
+function removePunctuations(text){
+var punctuations=/[\.,?!]/g;
+var newText= text.replace(punctuations,"")
+return newText
+}
+console.log(removePunctuations(text))
+function countWords(text){
+  var arr=text.split(' ')
+  return arr.filter(word => word !== '').length;
+}
+console.log(countWords(text))
+
+//q3
+//In the following shopping cart add, remove, edit items 
+/* add 'Meat' in the beginning of your shopping cart if it has not been already added
+add Sugar at the end of you shopping cart if it has not been already added
+remove 'Honey' if you are allergic to honey
+modify Tea to 'Green Tea'*/
+
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+shoppingCart.unshift('meat')
+console.log(shoppingCart)
+shoppingCart.push('sugar')
+console.log(shoppingCart)
+
+shoppingCart[4]=""
+console.log(shoppingCart)
+shoppingCart[3]='Green Tea'
+console.log(shoppingCart)
+
+//q4
+//In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+
+if(countries.includes('Ethiopia'===true)){
+  console.log('ETHIOPIA')
+}else{
+ console.log(countries.push('Ethiopia'))
+}
