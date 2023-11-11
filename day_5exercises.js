@@ -104,3 +104,4 @@ console.log(itCompanies)
 
 console.log(itCompanies.slice(1,3))
 console.log('Mariam')
+console.log('Aasiyah')
